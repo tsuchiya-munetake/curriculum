@@ -39,19 +39,24 @@ public class Task1_4 {
 
         // ② 「name」の値が「USER_RNAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
         //      定数を使用して「 ログイン成功です 」と出力してください。
-          String name=USER_NAME&&String pass=USER_PASSWORD
-          ログイン成功です。
+        if(String name USER_RNAME&&pass USER_PASSWORD){
+          System.out.println("ログイン成功です");
+          }
         // ③ 「USER_RNAME」の値のみ等しい場合。
        //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
-          String name=USER_NAME||String pass=USER_PASSWORD
-          パスワードに誤りがあります。
+        }else if(String name USER_RNAME){
+        System.out.println("パスワードに誤りがあります。");
+        }
         // ④ 「USER_PASSWORD」の値のみ等しい場合。
        //定数を使用して「 名前に誤りがあります。 」と出力してください。
-         String pass=USER_PASSWORD||String name=USER_NAME
-          名前に誤りがあります。
+      }else if(String pass USER_PASSWORD){
+        System.out.println("名前に誤りがあります。");
+        }
         // ⑤ 「USER_RNAME」も「USER_PASSWORD」の値も間違っていた場合。 
        //定数を使用して「 入力情報に誤りがあります。 」と出力してください
-       String name=USER_NAME!=String pass=USER_PASSWORD
+      }else{
+        System.out.println("入力情報に誤りがあります。");
+        }
     }
 
 }
