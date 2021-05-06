@@ -32,34 +32,34 @@ public class Task1_1 {
     public static void main(String[] args) {
 
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
-        hougeInt=50
+        int hougeInt=50
+        System.out.print=(hogeInt);
 
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
-        hougeInt=テスト
+       String hougeString=テスト
+       System.out.print=(hougeString);
 
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // double hogeDouble - Task1_1.main(...).Task1_1.main(String[])
+        0.2から表示できる；
         double hogeDouble = 0.2;
 
         // ④変数 hogeInt を値「100」で上書き
-        hougeInt=100
+        int hogeInt=100
+        System.out.print=(hogeInt);
         // ⑤変数 hogeString を値「合格」で上書き
-        hougeInt=合格
+        String hougeString=合格
+        System.out.print=(hougeString);
 
         // ⑥変数 hogeInt の値を表示
-        hougeInt=100
+        System.out.ptintln=("int型=hogeInt="+100);
 
         // ⑦下記の処理について、何をしているのかコメントを記入してください
-        // void java.io.PrintStream.println(String x)
-Prints a String and then terminate the line. This method behaves as though it invokes print(String) and then println().
-
-Parameters:
-x The String to be printed
+        １００点で合格になる。
         System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
-        ouble hogeDoubl - Task1_1.main(...).Task1_1.print()
-Syntax error on token(s), misplaced construct(s)Java(1610612972)
+        System.out.println("Stringクラス=hogeDouBle"+合格);
+        
 
 
     }
