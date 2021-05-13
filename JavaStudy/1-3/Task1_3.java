@@ -29,12 +29,13 @@ public class Task1_3 {
         System.out.println(remi);
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // 有楽町という町には有楽町線という路線がある。
+        // townの値は有楽町に代入し、lineの値は線に代入する。       
         String town = "有楽町";
         String line = "線";
 
         // ⑥ ⑤で作成した変数を連結させた値を代入する変数 train を作成しなさい
-        String train="有楽町線";
+        String town="有楽町";
+        String train=town+"線";
         System.out.println(train);
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
