@@ -15,7 +15,7 @@ public class Task1_5 {
         // ② for文を使って①で作成した配列を出力しなさい。
         for (int a = 0; a < fruits.length; a++) { 
             System.out.println("fruits[" + a + "] … " + fruits[a]);
-
+        }
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
          /*
         * //1から100までの数字を出力することができる
@@ -42,9 +42,8 @@ public class Task1_5 {
             System.out.println(b+"||");
         for(int j = 1; j <= 9; j++){
         System.out.println(b*j+ "|" );
-    }
     System.out.println();
+        }
 }
 }
     }
-}
