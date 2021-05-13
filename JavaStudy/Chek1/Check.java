@@ -35,4 +35,4 @@ public class Check{
             System.out.print(data[i] + " ");
         }
     }
- }
+}
