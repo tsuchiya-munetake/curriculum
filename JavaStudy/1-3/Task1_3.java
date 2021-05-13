@@ -39,11 +39,11 @@ public class Task1_3 {
         System.out.println(train);
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
-        plus=15;
-        minus=13;
-        multiply=20;
-        remi=2;
-        train="有楽町線";
+        String plus=15;
+        String minus=13;
+        String multiply=20;
+        STring remi=2;
+        String train="有楽町線";
 
     }
 }
