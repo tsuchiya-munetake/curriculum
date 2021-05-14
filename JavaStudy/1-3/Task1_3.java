@@ -15,18 +15,14 @@ public class Task1_3 {
 
         // ① 5 と 10 を加算した値を代入する、変数 plus を作成しなさい。
         int plus=5+10;
-        System.out.println(plus);
 
         // ② 20 から 7 を減算した値を代入する、変数 minus を作成しなさい。
-        int minus=20-7;
-        System.out.println(minus);
+        int minus=20-7
         // ③下記の処理について、何をしているのかコメントを記入してください。
         // 10と2を乗算した値に代入する、変数multiplyを作成する。
         int multiply = 10*2;
-        System.out.println(multiply);
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
         int remi=20%6;
-        System.out.println(remi);
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
         // String型のtownに有楽町を代入し、String型のlineに線を代入している       
@@ -35,14 +31,13 @@ public class Task1_3 {
 
         // ⑥ ⑤で作成した変数を連結させた値を代入する変数 train を作成しなさい
         String train=town+line;
-        System.out.println(train);
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
-        plus=15;
-        minus=13;
-        multiply=20;
-        remi=2;
-        train="有楽町線";
+        System.out.println(plus);
+        System.out.println(minus);
+        System.out.println(multiply);
+        System.out.println(remi);
+        System.out.println(train);
 
     }
 }
