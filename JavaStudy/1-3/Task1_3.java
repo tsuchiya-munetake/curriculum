@@ -29,21 +29,20 @@ public class Task1_3 {
         System.out.println(remi);
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // townの値は有楽町に代入し、lineの値は線に代入する。       
+        // String型のtownに有楽町を代入し、String型のlineに線を代入している       
         String town = "有楽町";
         String line = "線";
 
         // ⑥ ⑤で作成した変数を連結させた値を代入する変数 train を作成しなさい
-        String town="有楽町";
-        String train=town+"線";
+        String train=town+line;
         System.out.println(train);
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
-        String plus=15;
-        String minus=13;
-        String multiply=20;
-        STring remi=2;
-        String train="有楽町線";
+        plus=15;
+        minus=13;
+        multiply=20;
+        remi=2;
+        train="有楽町線";
 
     }
 }
